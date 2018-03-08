@@ -1,0 +1,71 @@
+/*--------------global-----------------*/
+
+   button {
+       /* #2 #colourful #plusfive */
+       background-color: #CDDC39;
+       color: black;
+       /* #2 #font capital #letters */
+       text-transform: uppercase;
+   }
+    button,a{
+        text-transform: uppercase;
+        color:black;
+    }
+
+    body {
+        /* #2 #colorful #background */
+        background-color: #F5F5F5;
+    }
+   * {
+       /* #2 #font #faces */
+       font-family: 'Roboto''Arial', sans-serif;
+       padding: 0px;
+       margin: 0px;
+   }
+/*--------------------app-bar----------------------*/
+    h1 {
+        /* #2 #colourful #app-bar */
+        background-color: #3F51B5;
+        color: white;
+    }
+
+
+/*--------------------channel-list-------------------*/
+/*styles for channel area*/
+.tile{background-color: white;;}
+    h2 {
+        /* #2 #colorful #channelandchat */
+        background-color: white;
+    }
+
+/*styles for chat area*/
+
+    p {
+        /* #2 #colorful #channelandchat */
+        background-color: white;
+     
+    }
+/*----------------------tab-bar------------------------*/
+#tabbar{background-color: white; }       
+#tabbar button{width:33%; height: 72px; text-align: center;margin:auto; padding: 16px; 
+border-style: none; background-color: white; font-size: 15px;}
+#tabbar button.selected{color: #3F51B5; border-bottom:4px solid #3F51B5;}
+#tabbar button img{display:block;margin:auto;}
+/*---------------------messages------------------------*/
+.message{width: 80%;margin-bottom: 8px;}
+.message h3{font-size: medium;}
+.message p{background-color:white;padding:16px;}
+.message button{background-color: #CDDC39;color: black; text-transform: uppercase;}
+
+/*.message p{font-size:larger;font-style:normal;}*/
+
+/*-------------Box Model your #messages------------*/
+
+.message{margin-left: 2.5%;}
+.ownmessage{margin-left: 17.5%; width:80%;}
+
+/*--------------Model the #channel list--------------*/
+#selected{color: #3F51B5; border-left:4px solid #3F51B5;}
+.tile li {padding: 16px; font-size: 16px;
+    border: 1px solid #F5F5F5;}
+.tile il img{vertical-align: middle;}
